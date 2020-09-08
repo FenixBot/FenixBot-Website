@@ -1,10 +1,750 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>FenixBot</h2>
-<img src="https://i.imgur.com/Mw8zxCo.png">
-
-</body>
-</html>
-Coming soon..
+<h1 id="commands">Commands</h1>
+<p>Here&#39;s the list of FenixBot commands. This one contains more than <strong>100 commands</strong> in <strong>8 categories</strong>!  </p>
+<h4 id="contents-of-the-table">Contents of the table</h4>
+<p><strong>Name</strong>: The name of the command<br><strong>Description</strong>: A brief explanation of the purpose of the command<br><strong>Usage</strong>: The arguments/options that the command takes in parameters<br><strong>Cooldown</strong>: The time that must elapse between each command so that it can be executed again by the user</p>
+<h3 id="general-23-commands-">General (23 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>calc</strong></td>
+<td>Calculator able to solve complex operations and to convert units!</td>
+<td>calc [calculation]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>fortnite</strong></td>
+<td>Shows a player&#39;s Fortnite stats!</td>
+<td>fortnite [psn/xbl/pc] [pseudo]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>fortniteshop</strong></td>
+<td>Shows the daily fortnite items shop!</td>
+<td>fortniteshop</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>github</strong></td>
+<td>Shows FenixBot&#39;s Github repository information!</td>
+<td>github</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>hastebin</strong></td>
+<td>Upload your text on hastebin!</td>
+<td>hastebin [text]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>help</strong></td>
+<td>Show commands list or specific command help.</td>
+<td>help (command)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>invitations</strong></td>
+<td>Shows the number of people you have invited to the server!</td>
+<td>invitations (@member)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>invite</strong></td>
+<td>Shows FenixBot links!</td>
+<td>invite (copy)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>minecraft</strong></td>
+<td>Shows information about a Minecraft server!</td>
+<td>minecraft [ip]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>permissions</strong></td>
+<td>Displays the member&#39;s permissions in the channel</td>
+<td>permissions (@member)</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>ping</strong></td>
+<td>Show bot&#39;s ping</td>
+<td>ping</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>quote</strong></td>
+<td>Quote a message in the channel!</td>
+<td>quote [messageID] [channel]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>remindme</strong></td>
+<td>Add a new personal reminder</td>
+<td>remindme [message]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>report</strong></td>
+<td>Send your report to the channel defined for them!</td>
+<td>report [@user] [reason]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>serverinfo</strong></td>
+<td>Shows information about the server!</td>
+<td>serverinfo [ID/Name]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setafk</strong></td>
+<td>Become AFK (members who mention you will receive a message)</td>
+<td>setafk [reason]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>shorturl</strong></td>
+<td>Make your links shorter!</td>
+<td>shorturl [url]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>someone</strong></td>
+<td>Pick a random member on the server!</td>
+<td>someone</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>staff</strong></td>
+<td>Shows the server staff members list!</td>
+<td>staff</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>stats</strong></td>
+<td>Shows the bot stats!</td>
+<td>stats</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>suggest</strong></td>
+<td>Send your suggestion to the defined channel!</td>
+<td>suggest [message]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>translate</strong></td>
+<td>Translate your text!</td>
+<td>translate [language] [message]</td>
+<td>8 seconds</td>
+</tr>
+<tr>
+<td><strong>userinfo</strong></td>
+<td>Shows user information!</td>
+<td>userinfo (@user/userID)</td>
+<td>5 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="administration-18-commands-">Administration (18 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>addcommand</strong></td>
+<td>Add a custom command!</td>
+<td>addcommand [name] [answer]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>addemoji</strong></td>
+<td>Add an emoji to the server!</td>
+<td>addemoji [image-url] [name]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>automod</strong></td>
+<td>Toggle Discord invites automatic deletion</td>
+<td>automod [on/off] (#channel)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>autorole</strong></td>
+<td>Toggle autorole on the server!</td>
+<td>autorole [on/off] (role)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>backup</strong></td>
+<td>Manage your server backups in an efficient way!</td>
+<td>backup [create/load/infos]</td>
+<td>30 seconds</td>
+</tr>
+<tr>
+<td><strong>configuration</strong></td>
+<td>Shows the server configuration!</td>
+<td>configuration</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>delcommand</strong></td>
+<td>Remove a custom command!</td>
+<td>delcommand [name-of-the-command]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>deletemod</strong></td>
+<td>Toggle moderation commands auto deletion!</td>
+<td>deletemod [on/off]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>goodbye</strong></td>
+<td>Toggle goodbye messages!</td>
+<td>goodbye</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>ignore</strong></td>
+<td>Toggle commands in a channel</td>
+<td>ignore [channel]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setfortniteshop</strong></td>
+<td>Set the daily Fortnite shop channel!</td>
+<td>setfortniteshop (#channel)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>setlang</strong></td>
+<td>Change the server language!</td>
+<td>setlang [language]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setmodlogs</strong></td>
+<td>Set the moderation logs channel!</td>
+<td>setmodlogs (#channel)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setprefix</strong></td>
+<td>Set the server prefix!</td>
+<td>setprefix [prefix]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setreports</strong></td>
+<td>Set the reports channel!</td>
+<td>setreports (#channel)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setsuggests</strong></td>
+<td>Set the suggestions channel!</td>
+<td>setsuggests (#channel)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>slowmode</strong></td>
+<td>Set a channel cooldown</td>
+<td>slowmode [#channel] (time)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>welcome</strong></td>
+<td>Toggle welcome messages!</td>
+<td>welcome</td>
+<td>3 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="images-17-commands-">Images (17 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>avatar</strong></td>
+<td>Shows the avatar of the mentionned member</td>
+<td>avatar (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>captcha</strong></td>
+<td>Generates a &quot;captcha&quot; image using the Nekobot API</td>
+<td>captcha (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>clyde</strong></td>
+<td>Generates a &quot;Clyde&quot; message image using the Nekobot API</td>
+<td>clyde [text]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>facepalm</strong></td>
+<td>Generates a &quot;facepalm&quot; image using canvas</td>
+<td>facepalm (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>fire</strong></td>
+<td>Generates a &quot;fire&quot; image using Amethyste API</td>
+<td>fire (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>jail</strong></td>
+<td>Generates a &quot;jail&quot; image using Amethyste API</td>
+<td>jail (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>love</strong></td>
+<td>Generates a &quot;love&quot; image using the Nekobot API</td>
+<td>love [@member1] (@member2)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>mission</strong></td>
+<td>Generates a &quot;mission&quot; image using Amethyste API</td>
+<td>mission (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>phcomment</strong></td>
+<td>Generates a &quot;phcomment&quot; image using Nekobot API</td>
+<td>phcomment (@member) [text]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>qrcode</strong></td>
+<td>Generates a QR code image from a given text</td>
+<td>qrcode [text]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>rip</strong></td>
+<td>Generates a &quot;rip&quot; image using Nekobot API</td>
+<td>rip (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>scary</strong></td>
+<td>Generates a &quot;scary&quot; image using Nekobot API</td>
+<td>scary (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>tobecontinued</strong></td>
+<td>Generates a &quot;tobecontinued&quot; image using Nekobot API</td>
+<td>tobecontinued (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>triggered</strong></td>
+<td>Generates a &quot;triggered&quot; image using Nekobot API</td>
+<td>triggered (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>tweet</strong></td>
+<td>Generates a &quot;tweet&quot; image using Nekobot API</td>
+<td>tweet [@twitter_username] [content]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>wanted</strong></td>
+<td>Generates a &quot;wanted&quot; image using Nekobot API</td>
+<td>wanted (@member)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>wasted</strong></td>
+<td>Generates a &quot;wasted&quot; image using Nekobot API</td>
+<td>wasted (@member)</td>
+<td>5 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="economy-15-commands-">Economy (15 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>achievements</strong></td>
+<td>Shows your achievements list!</td>
+<td>achievements</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>birthdate</strong></td>
+<td>Set the birthday date that appear on your profile</td>
+<td>birthdate (date)</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>deposit</strong></td>
+<td>Deposit your money in the bank</td>
+<td>deposit [amount]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>divorce</strong></td>
+<td>Divorce the person you are currently married to!</td>
+<td>divorce</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>leaderboard</strong></td>
+<td>Shows users who have the most credits, levels or reputation points!</td>
+<td>leaderboard [rep/levels/credits]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>marry</strong></td>
+<td>Marry someone you love!</td>
+<td>marry [@member]</td>
+<td>10 seconds</td>
+</tr>
+<tr>
+<td><strong>money</strong></td>
+<td>Shows your credits</td>
+<td>money (@member)</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>pay</strong></td>
+<td>Send money to someone!</td>
+<td>pay [@member] [amount]</td>
+<td>10 seconds</td>
+</tr>
+<tr>
+<td><strong>profile</strong></td>
+<td>Shows the mentioned user or author profile</td>
+<td>profile [user]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>rep</strong></td>
+<td>Give a reputation point to someone!</td>
+<td>rep [user]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>rob</strong></td>
+<td>Try to rob a member!</td>
+<td>rob [@member] [amount]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>setbio</strong></td>
+<td>Change your biography!</td>
+<td>setbio [biography]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>slots</strong></td>
+<td>The Fenix casino</td>
+<td>slots [amount]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>withdraw</strong></td>
+<td>Withdraw money!</td>
+<td>withdraw [amount]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>work</strong></td>
+<td>Claim your salary!</td>
+<td>work</td>
+<td>3 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="moderation-14-commands-">Moderation (14 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>announcement</strong></td>
+<td>Send an announcement in the current channel!</td>
+<td>announcement [text]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>ban</strong></td>
+<td>Ban the mentioned member!</td>
+<td>ban [@user] (reason)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>checkinvites</strong></td>
+<td>Check if members have a Discord server link in their status!</td>
+<td>checkinvites</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>clear</strong></td>
+<td>Quickly delete multiple messages!</td>
+<td>clear [number-of-messages] (@member)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>clear-sanctions</strong></td>
+<td>Clear a member sanctions!</td>
+<td>clear-sanctions [@member]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>giveaway</strong></td>
+<td>Easily manage your giveaways!</td>
+<td>giveaway [create/reroll/delete/end] (time) (winners count) (prize)</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>kick</strong></td>
+<td>Kick the mentioned member!</td>
+<td>kick [@member] (reason)</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>mute</strong></td>
+<td>Prevents a member from sending messages and connecting to a voice chat room for a defined period of time!</td>
+<td>mute [@member] [time]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>poll</strong></td>
+<td>Launch a survey in the current channel!</td>
+<td>poll [question]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>sanctions</strong></td>
+<td>Displays the list of infractions committed by a member!</td>
+<td>sanctions [@member]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>setwarns</strong></td>
+<td>Define the sanctions that members will get after a certain number of warns!</td>
+<td>setwarns [kick/ban] [number/reset]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>unban</strong></td>
+<td>Unban the user from the server!</td>
+<td>unban [userID/user#0000]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>unmute</strong></td>
+<td>Unmute the mentioned member!</td>
+<td>unmute [@member]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>warn</strong></td>
+<td>Warn a member in private messages</td>
+<td>warn [@member] [reason]</td>
+<td>3 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fun-10-commands-">Fun (10 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>8ball</strong></td>
+<td>I&#39;m telling you the truth!</td>
+<td>8ball [question]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>ascii</strong></td>
+<td>Turn your text into ascii characters!</td>
+<td>ascii [text]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>choice</strong></td>
+<td>Helps you choose between the given choices!</td>
+<td>choice [choice1/choice2/etc...]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>findwords</strong></td>
+<td>Start a Findwords party, a game where you have to find words!</td>
+<td>findwords</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>flip</strong></td>
+<td>I roll the dice for you!</td>
+<td>flip</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>fml</strong></td>
+<td>Gets a random FML</td>
+<td>fml</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>joke</strong></td>
+<td>Gets a wonderful joke specially made for you!</td>
+<td>joke</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>lmg</strong></td>
+<td>Generate a LMGTFY link with your search</td>
+<td>lmg [search]</td>
+<td>1 seconds</td>
+</tr>
+<tr>
+<td><strong>lovecalc</strong></td>
+<td>How much love is there between two people?</td>
+</tr>
+</tbody>
+</table>
+<p><em>This is a fun command, not to be taken seriously</em> | lovecalc [@member1] (@member2)  | 1 seconds |
+| <strong>number</strong>    | Find the right number!                                                                        | number                          | 5 seconds |</p>
+<h3 id="music-8-commands-">Music (8 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>lyrics</strong></td>
+<td>Shows the song lyrics</td>
+<td>lyrics [song-name]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>np</strong></td>
+<td>Shows information about the current song!</td>
+<td>np</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>pause</strong></td>
+<td>Pause the current song!</td>
+<td>pause</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>play</strong></td>
+<td>Plays music for you!</td>
+<td>play [song]</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>queue</strong></td>
+<td>Shows the server queue</td>
+<td>queue</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>resume</strong></td>
+<td>Resume the current song!</td>
+<td>resume</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>skip</strong></td>
+<td>Skip the current song</td>
+<td>skip</td>
+<td>5 seconds</td>
+</tr>
+<tr>
+<td><strong>stop</strong></td>
+<td>Stop the music</td>
+<td>stop</td>
+<td>5 seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="owner-3-commands-">Owner (3 commands)</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Cooldown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>eval</strong></td>
+<td>Executes the given code</td>
+<td>eval [code]</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>reload</strong></td>
+<td>Reload a command!</td>
+<td>reload</td>
+<td>3 seconds</td>
+</tr>
+<tr>
+<td><strong>servers-list</strong></td>
+<td>Show the servers list!</td>
+<td>servers-list</td>
+<td>5 seconds</td>
+</tr>
+</tbody>
+</table>
